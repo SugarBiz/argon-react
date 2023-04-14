@@ -1,0 +1,3 @@
+export const StrategyJargon =""
+export const genericConclusion1 ="Wouldn't it be great if you could contact us in order to connect individually so we can discuss this topic further as it seems interesting? Whenever possible, we at Sky TechOPS prefer to assist our clients personally. Alternatively, you are welcome to send us an email outlining your requirements via the online form and one of our consultants will get in touch with you once we have received your email."
+export const genericConclusion2 ="Whenever possible, we at Sky TechOPS prefer to assist our clients personally. Alternatively, you are welcome to send us an email outlining your requirements via the online form and one of our consultants will get in touch with you once we have received your email."

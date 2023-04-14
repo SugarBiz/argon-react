@@ -1,0 +1,42 @@
+.navbar-brand img {
+    height: 84px;
+}
+
+@media (max-width: 991.98px){
+.navbar-collapse .collapse-brand img {
+    height: 55px;
+}
+}
+
+.mL-a{
+    margin-left: auto;
+}
+.info .info-title {
+    margin: 15px 0 15px;
+    font-weight: 600;
+}
+.productFont{
+    font-size: 3.525rem;
+    font-style: italic;
+    font-family: -webkit-body;
+    font-weight: bold;
+    color: peachpuff;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-text-stroke: 2px midnightblue;
+    margin-top: 84px; 
+  }
+  .coverButton2{
+    z-index: 1;
+    position: absolute;
+    color: darkblue;
+    border-color: peachpuff;
+    background: peachpuff;
+  }
+  .textJustify{
+    text-align: justify;
+  }
+  @media (min-width: 992px){
+.profileMargin {
+    margin-top: -512px !important;
+}}

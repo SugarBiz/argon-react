@@ -41,7 +41,7 @@ import Typography from "./IndexSections/Typography.js";
 import Modals from "./IndexSections/Modals.js";
 import Datepicker from "./IndexSections/Datepicker.js";
 import TooltipPopover from "./IndexSections/TooltipPopover.js";
-import Carousel from "./IndexSections/Carousel.js";
+import Carousel from "./IndexSections/Carousel gmt.js";
 import Icons from "./IndexSections/Icons.js";
 import Login from "./IndexSections/Login.js";
 import Download from "./IndexSections/Download.js";

@@ -29,10 +29,10 @@
   },
   "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build && gulp licenses",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build && gulp licenses",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.css",
     "minify-sass": "sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.min.css --style compressed"
@@ -47,18 +47,22 @@
     "not op_mini all"
   ],
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "bootstrap": "4.3.1",
     "classnames": "2.3.1",
+    "fs": "^0.0.1-security",
     "headroom.js": "0.12.0",
     "moment": "2.29.4",
     "nouislider": "14.1.1",
-    "react": "18.2.0",
+    "react": ">=16.0.0",
+    "react-app-rewired": "^2.2.1",
     "react-datetime": "3.1.1",
-    "react-dom": "18.2.0",
+    "react-dom": ">=16.0.0",
     "react-router-dom": "5.1.2",
     "react-scripts": "5.0.1",
     "reactstrap": "8.4.1",
-    "sass": "1.53.0"
+    "sass": "1.53.0",
+    "util": "^0.12.5"
   },
   "peerDependencies": {
     "react": ">=16.0.0",
