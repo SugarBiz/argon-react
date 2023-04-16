@@ -60,15 +60,13 @@ class Landing extends React.Component {
             {/* shape Hero */}
             <section className="section section-lg section-shaped pb-250">
               <div className="shape shape-style-1 shape-default">
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
-                <span />
+              <span className="squares square1"/>
+              <span className="squares square2"/>
+              <span className="squares square3"/>
+              <span className="squares square4"/>
+              <span className="squares square5"/>
+              <span className="squares square6"/>
+              <span className="squares square7"/>
               </div>
               <Container className="py-lg-md d-flex">
                 <div className="col pt-5 px-0">

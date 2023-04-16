@@ -38,13 +38,13 @@ class Profile extends React.Component {
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4">
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
+            <span className="squares square1"/>
+              <span className="squares square2"/>
+              <span className="squares square3"/>
+              <span className="squares square4"/>
+              <span className="squares square5"/>
+              <span className="squares square6"/>
+              <span className="squares square7"/>
             </div>
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew">

@@ -98,14 +98,13 @@ const isEmail =(val)=> {
         <main >
           <section className="section section-shaped section-lg">
             <div className="shape shape-style-1 bg-gradient-default">
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
+              <span className="squares square1"/>
+              <span className="squares square2"/>
+              <span className="squares square3"/>
+              <span className="squares square4"/>
+              <span className="squares square5"/>
+              <span className="squares square6"/>
+              <span className="squares square7"/>
             </div>
 
             

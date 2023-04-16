@@ -1,11 +1,11 @@
 {
   "name": "argon-design-system-react",
   "version": "1.1.1",
-  "description": "React version of Argon Design System by Creative Tim",
+  "description": "SugarBiz Limited",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/argon-design-system-react.git"
+    "url": "git+https://github.com/SugarBiz/argon-react.git"
   },
   "keywords": [
     "react",
@@ -25,14 +25,16 @@
   "author": "Creative Tim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
+    "url": "https://github.com/SugarBiz/argon-react"
   },
-  "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
+  "homepage": "http://sugarbiz.github.io/argon-react",
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build && gulp licenses",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.css",
     "minify-sass": "sass src/assets/scss/argon-design-system-react.scss src/assets/css/argon-design-system-react.min.css --style compressed"
@@ -73,6 +75,7 @@
     "@types/markerclustererplus": "2.1.33",
     "@types/react": "18.0.17",
     "eslint-plugin-flowtype": "8.0.3",
+    "gh-pages": "^5.0.0",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.9",
     "jquery": "3.6.0",
